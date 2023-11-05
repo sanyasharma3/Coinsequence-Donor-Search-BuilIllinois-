@@ -1,3 +1,23 @@
 # Coinsequence-Donor-Search-BuilIllinois-
-## Problem Statement
-I am working on facilitating matchmaking between students and donors. the reason why this is convulated is beacuse the data for the lives in different datatables and microservices. additionally, we are using database querying as opposed to using a third party search engine like sonar. so in this hackathon i focused on that capability. lets take an example of women in stem from teh chicago area. here when i search i should be able to see the relevant students show up. this might seem trivial but this feature is very powerful to faciliate our match making and beacuse of the multiple streams of data were using this makes it a hard feature to submit
+## Overview
+Coinsequence is dedicated to creating meaningful connections between donors and students, particularly those who are navigating through the complex landscape of student debt. In our latest feature update, we focus on enhancing the matchmaking capabilities of our platform to ensure that donors can find and support students whose experiences and backgrounds resonate with them personally. This update is especially pivotal for our mission to support underrepresented groups, such as women in STEM from the Chicago area.
+
+## Technical Challenges
+Our data infrastructure is composed of various datatables and microservices, which adds a level of complexity to the task of matchmaking. The data pertinent to the lives and stories of students is distributed and not centralized, making it a challenging task to create a seamless search experience.
+
+Despite these challenges, we have opted to refine our database querying methods instead of relying on third-party search engines like ElasticSearch or Algolia. We believe this approach not only aligns with our commitment to data security and privacy but also allows for deeper integration and customization that reflects the unique needs of our community.
+
+## The Matchmaking Capability
+With this feature, donors can perform targeted searches — for instance, looking specifically for "women in STEM from the Chicago area." Despite the apparent simplicity of such a search, the power behind this functionality lies in its ability to navigate through multiple streams of data to retrieve the most relevant student profiles.
+
+This matchmaking capability is not trivial; it is a sophisticated solution to the data distribution problem. It enables our platform to:
+
+- Provide accurate and relevant search results by intelligently querying distributed databases.
+- Create personalized connections based on specific donor preferences and criteria.
+- Showcase student profiles in a way that highlights their individual stories and educational journeys.
+
+## Implementation in the Hackathon
+During the hackathon, we are concentrated on developing this feature to be as intuitive and powerful as possible. The goal is to create a tool that not only functions effectively on a technical level but also facilitates genuine connections that can lead to sustained support for students.
+
+## Code
+`profile.py` contains some sample code representing the student profile, since we are unable to provide full access to our code repository.
